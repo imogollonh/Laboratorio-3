@@ -1,0 +1,192 @@
+/*
+Etiquetas modificadas
+1. Body x x
+2. Header x x
+3. Aside x
+4. Footer x
+5. q x
+6. Section x x
+7. Div x x
+8. span x x
+9. figure x x
+10. ul x x
+
+*/
+
+/*Inicio de figure*/
+header figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/*Fin figure*/
+/*Etiqueta Body*/
+body {
+  background: url("https://www.callofduty.com/content/dam/atvi/callofduty/ghosts/images/PHA_Extinction_Annotation_PreLaunch_XZXCVD13J70H_ProRes.jpg");
+  background-size: 100%;
+  margin: 0;
+  margin-left: 100;
+  background-repeat: initial;
+}
+
+/*Etiqueta div*/
+div{
+  background: #0C0032;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+/*Fin etiqueta div*/
+
+/*Etiqueta header*/
+header {
+  background: #282828;
+  color:black;
+  text-align: left;
+  height: 65px;
+  bottom: 100;
+  width: 100%;
+  position: fixed; /*Posicionar el header para que se mueva cuando se navege en la pagina*/
+}
+header h1 { 
+  /*Titulo con estilo*/
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+  color: #FFFFFF;
+}
+
+header img{
+  float: left;
+  width: 5%;
+}
+/*Fin de modificaciones etiqueta header*/
+
+/*Inicio de footer*/
+footer {
+  background:black;
+  color:white;
+  clear:both;
+  bottom: 0;
+  min-height: 70px;
+}
+
+footer p{
+  font-family: fantasy;
+  float: left;
+  font-size: 10px;
+  bottom: 0;
+ text-align: end;
+}
+footer a{
+  float: right;
+}
+/*Fin de footer*/
+
+/*Estilos de css para aside*/
+aside {
+    width: 25%;
+    float: right;
+    margin-top: 75px;
+    background: #282828;
+    height: 70%;
+}
+aside img{
+  width: 80%;
+}
+
+aside h2{
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+  color: white;
+}
+aside q{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+/*Fin de los estilos para aside*/
+
+/*Inicio de span*/
+span{
+  text-align: center;
+  color: black;
+  background: white;
+  font-family: cursive;
+  font-size: 100%;
+}
+
+/*Fin de span*/
+p{
+  text-align: center;
+}
+
+section{
+  background-color: #3500D3;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+section img{
+  float: left;
+  width: 500px;
+}
+section h2{
+  color: azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section div{
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  width: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+q{
+  background: white;
+  font-family: fantasy;
+  font-size: 23px;
+  margin: 10%;
+  color: black;
+}
+header ul{
+  list-style-type: none;
+  margin: 40%;
+  padding: 0;
+}
+ul {
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  border: solid 2px white;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
